@@ -19,7 +19,6 @@ public class Main {
         frame.setSize(300, 300);
         frame.setLayout(null);
         frame.setVisible(true);
-        //дисклеймер
         JOptionPane.showMessageDialog(frame, msg, "Дисклеймер", JOptionPane.INFORMATION_MESSAGE);
         // то во что записывается "шутка"
         JLabel label = new JLabel();
