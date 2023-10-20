@@ -1,0 +1,52 @@
+
+
+Version:	3.50
+CmdLine:	C:\JProjects\Project\RndJokeGen\RndJokeGen.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\JProjects\Project\RndJokeGen\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	1.017.000
+Java max ver:	
+Substitute:	JAVA_HOME = C:\Program Files\Java\jdk1.8.0_202
+Substitute:	PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jre1.8.0_202\bin;C:\Program Files\dotnet\;C:\Users\Fedor\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_202\bin;;C:\Users\Fedor\AppData\Local\Programs\Microsoft VS Code\bin
+JRE paths:	C:\Program Files\Java\jdk1.8.0_202;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jre1.8.0_202\bin;C:\Program Files\dotnet\;C:\Users\Fedor\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_202\bin;;C:\Users\Fedor\AppData\Local\Programs\Microsoft VS Code\bin
+Check launcher:	C:\Program Files\Java\jdk1.8.0_202\bin\javaw.exe (OK)
+Version string: 1.008.000_202 / 64-Bit (Ignore)
+Check launcher:	C:\Windows\system32\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk1.8.0_202\bin\javaw.exe (OK)
+Version string: 1.008.000_202 / 64-Bit (Ignore)
+Check launcher:	C:\Program Files\Java\jre1.8.0_202\bin\javaw.exe (OK)
+Version string: 1.008.000_202 / 64-Bit (Ignore)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Fedor\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk1.8.0_202\bin\javaw.exe (OK)
+Version string: 1.008.000_202 / 64-Bit (Ignore)
+Check launcher:	C:\Users\Fedor\AppData\Local\Programs\Microsoft VS Code\bin\javaw.exe (not found)
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Version string: 1.008.000 / 64-Bit (Ignore)
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_381
+Version string: 1.008.000_381 / 64-Bit (Ignore)
+Ignore:		1.008.000_381
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+32-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Check:		SOFTWARE\JavaSoft\JDK\17.0.7
+Version string: 1.017.000_007 / 64-Bit (OK)
+Check launcher:	C:\Program Files\Java\jdk-17\bin\javaw.exe (OK)
+Match:		1.017.000_007
+Runtime used:	1.017.000_007 (64-bit)
+Launcher:	C:\Program Files\Java\jdk-17\bin\javaw.exe
+Launcher args:	-jar "C:\JProjects\Project\RndJokeGen\RndJokeGen.exe"
+Args length:	53/32768 chars
+Exit code:	0

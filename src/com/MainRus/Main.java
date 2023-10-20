@@ -1,14 +1,17 @@
+package com.MainRus;
+
+import com.Eng_loc.localization;
+
 import javax.swing.*;
-import java.awt.event.*;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
 import java.io.IOException;
-import java.io.Reader;
 import java.util.Base64;
 
 public class Main {
 
     public static void main(String[] args) throws IOException, InterruptedException {
         localization localization = new localization();
-        Modificator modificator = new Modificator();
         String msg = """
                 Данное приложение может вызвать;
                 1-Приступы кринжа
@@ -65,8 +68,6 @@ public class Main {
         frame.add(names);
         names.setVisible(false);
         JTextField namestxf = new JTextField();
-        modificator.fw(namestxf);
-        modificator.KeyListener(namestxf, names);
         namestxf.setBounds(x, 20, 30, 20);
         frame.add(namestxf);
         namestxf.setVisible(false);
