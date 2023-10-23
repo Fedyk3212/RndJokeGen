@@ -22,9 +22,8 @@ public class localization extends Main {
                 engprg[random(3)] + " " +
                 engfin[random(4)]);
     }
-
+    public JButton locbut = new JButton("Gen Joke");
     public void butwork(JRadioButton language, JButton but, JButton but2, JButton but3, JFrame frame, JLabel label) {
-        JButton locbut = new JButton("Gen Joke");
         frame.add(locbut);
         locbut.setBounds(25, 125, 200, 30);
         locbut.addActionListener(e -> label.setText(loclazdJoke()));
