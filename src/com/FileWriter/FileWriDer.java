@@ -12,6 +12,7 @@ public class FileWriDer extends  Main {
     FileInputStream fl = new FileInputStream ("D: ave.txt");
     FileWriter filewriter = new FileWriter(file);
     public FileWriDer(JTextField nametxf) throws IOException {
+        System.out.println("test");
 
         nametxf.addKeyListener(new KeyAdapter() {
             @Override
@@ -27,7 +28,6 @@ public class FileWriDer extends  Main {
         });
 
     }
-
 
     public static void Reader(){}
 }
