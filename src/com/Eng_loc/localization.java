@@ -23,8 +23,8 @@ public class localization extends Main {
     public static String loclazdJoke() {
         return (joks1eng.get(random(joks1eng.size())) + " " +
                 engact.get(random(engact.size())) + " " +
-                engprg.get(random(engact.size())) + " " +
-                engfin.get(random(engact.size())));
+                engprg.get(random(engprg.size())) + " " +
+                engfin.get(random(engfin.size())));
     }
     public JButton locbut = new JButton("Gen Joke", JOPER.getImage3());
     public void butwork(JButton but, JFrame frame, JLabel label, JRadioButton language,  JLabel names,JLabel acts,JLabel prdlg,JLabel fin) {
